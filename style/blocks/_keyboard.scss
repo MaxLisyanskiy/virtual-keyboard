@@ -1,0 +1,14 @@
+.keyboard {
+    max-width: 1008px;
+    width: 100%;
+    background-color: rgba(206, 210, 217, 0.8);
+    backdrop-filter: blur(35px);
+    padding: 6px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+
+    &__row {
+        display: flex;
+    }
+}
+

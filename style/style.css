@@ -1,0 +1,116 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+.textarea {
+  display: block;
+  width: 700px;
+  height: 200px;
+  margin: 10px auto 10px;
+  padding: 10px;
+  font-size: 18px;
+  color: #444444;
+  border: 1px solid grey;
+  border-radius: 8px;
+}
+
+.title {
+  position: absolute;
+  top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.keyboard {
+  max-width: 1008px;
+  width: 100%;
+  background-color: rgba(206, 210, 217, 0.8);
+  -webkit-backdrop-filter: blur(35px);
+          backdrop-filter: blur(35px);
+  padding: 6px;
+  border-radius: 8px;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+.keyboard__row {
+  display: flex;
+}
+
+.key {
+  width: 85px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px;
+  z-index: 5;
+  background-color: #fff;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 9px;
+  transition: 0.2s;
+}
+.key__tab {
+  width: 106px;
+  background: #AEB3BE;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 8px;
+  font-weight: 700;
+}
+.key__caps_lock {
+  width: 200px;
+  background: #AEB3BE;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 8px;
+  font-weight: 700;
+}
+.key__shift {
+  width: 200px;
+  background: #AEB3BE;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 8px;
+  font-weight: 700;
+}
+.key__shift_right {
+  justify-content: flex-end;
+}
+
+.backspace_key {
+  width: 120px;
+}
+
+.slash_key {
+  width: 90px;
+  background: #AEB3BE;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 12px;
+  font-weight: 700;
+}
+
+.enter_key {
+  width: 120px;
+  background: #AEB3BE;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 12px;
+  font-weight: 700;
+}
+
+.space_key {
+  max-width: 600px;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */

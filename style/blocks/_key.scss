@@ -1,0 +1,73 @@
+.key {
+    width: 85px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+    z-index: 5;
+    background-color: #fff;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 9px;
+    transition: .2s;
+
+    &__tab {
+        width: 106px;
+        background: #AEB3BE;
+        justify-content: flex-start;
+        align-items: flex-end;
+        padding: 8px;
+        font-weight: 700;
+    }
+
+    &__caps_lock {
+        width: 200px;
+        background: #AEB3BE;
+        justify-content: flex-start;
+        align-items: flex-end;
+        padding: 8px;
+        font-weight: 700;
+    }
+
+    &__shift {
+        width: 200px;
+        background: #AEB3BE;
+        justify-content: flex-start;
+        align-items: flex-end;
+        padding: 8px;
+        font-weight: 700;
+
+        &_right {
+            justify-content: flex-end;
+        }
+    }
+}
+
+.backspace_key {
+    width: 120px;
+}
+
+
+
+.slash_key {
+    width: 90px;
+    background: #AEB3BE;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 12px;
+    font-weight: 700;
+}
+
+.enter_key {
+    width: 120px;
+    background: #AEB3BE;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 12px;
+    font-weight: 700;
+}
+
+.space_key {
+    max-width: 600px;
+    width: 100%;
+}
