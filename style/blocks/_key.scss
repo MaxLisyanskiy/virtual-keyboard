@@ -16,6 +16,15 @@
         color: #fff
     }
 
+    &__backspace {
+        width: 200px;
+        background: #AEB3BE;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding: 8px;
+        font-weight: 700;
+    }
+
     &__tab {
         width: 106px;
         background: #AEB3BE;
@@ -25,10 +34,28 @@
         font-weight: 700;
     }
 
-    &__caps_lock {
+    &__del {
+        width: 100px;
+        background: #AEB3BE;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding: 8px;
+        font-weight: 700;
+    }
+
+    &__caps-lock {
         width: 200px;
         background: #AEB3BE;
         justify-content: flex-start;
+        align-items: flex-end;
+        padding: 8px;
+        font-weight: 700;
+    }
+
+    &__enter {
+        width: 160px;
+        background: #AEB3BE;
+        justify-content: flex-end;
         align-items: flex-end;
         padding: 8px;
         font-weight: 700;
@@ -46,10 +73,42 @@
             justify-content: flex-end;
         }
     }
-}
 
-.backspace_key {
-    width: 120px;
+    &__up {
+        width: 100px;
+        background: #AEB3BE;
+        font-weight: 700;
+        padding-top: 8px;
+        font-size: 24px;
+    }
+
+    &__ctrl {
+        width: 100px;
+    }
+
+    &__win {
+        width: 100px;
+    }
+
+    &__alt {
+        width: 100px;
+    }
+
+    &__space {
+        width: 640px;
+    }
+
+    &__left {
+        width: 100px;
+    }
+
+    &__down {
+        width: 100px;
+    }
+
+    &__right {
+        width: 100px;
+    }
 }
 
 
@@ -63,14 +122,7 @@
     font-weight: 700;
 }
 
-.enter_key {
-    width: 120px;
-    background: #AEB3BE;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding: 12px;
-    font-weight: 700;
-}
+
 
 .space_key {
     max-width: 600px;

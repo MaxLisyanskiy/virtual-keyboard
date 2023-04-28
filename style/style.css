@@ -38,8 +38,7 @@ body {
 }
 
 .keyboard {
-  max-width: 1008px;
-  width: 100%;
+  width: 900px;
   background-color: rgba(206, 210, 217, 0.8);
   -webkit-backdrop-filter: blur(35px);
           backdrop-filter: blur(35px);
@@ -68,6 +67,14 @@ body {
   background-color: #0F77F0;
   color: #fff;
 }
+.key__backspace {
+  width: 200px;
+  background: #AEB3BE;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 8px;
+  font-weight: 700;
+}
 .key__tab {
   width: 106px;
   background: #AEB3BE;
@@ -76,10 +83,26 @@ body {
   padding: 8px;
   font-weight: 700;
 }
-.key__caps_lock {
+.key__del {
+  width: 100px;
+  background: #AEB3BE;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 8px;
+  font-weight: 700;
+}
+.key__caps-lock {
   width: 200px;
   background: #AEB3BE;
   justify-content: flex-start;
+  align-items: flex-end;
+  padding: 8px;
+  font-weight: 700;
+}
+.key__enter {
+  width: 160px;
+  background: #AEB3BE;
+  justify-content: flex-end;
   align-items: flex-end;
   padding: 8px;
   font-weight: 700;
@@ -95,22 +118,37 @@ body {
 .key__shift_right {
   justify-content: flex-end;
 }
-
-.backspace_key {
-  width: 120px;
+.key__up {
+  width: 100px;
+  background: #AEB3BE;
+  font-weight: 700;
+  padding-top: 8px;
+  font-size: 24px;
+}
+.key__ctrl {
+  width: 100px;
+}
+.key__win {
+  width: 100px;
+}
+.key__alt {
+  width: 100px;
+}
+.key__space {
+  width: 640px;
+}
+.key__left {
+  width: 100px;
+}
+.key__down {
+  width: 100px;
+}
+.key__right {
+  width: 100px;
 }
 
 .slash_key {
   width: 90px;
-  background: #AEB3BE;
-  justify-content: flex-end;
-  align-items: flex-end;
-  padding: 12px;
-  font-weight: 700;
-}
-
-.enter_key {
-  width: 120px;
   background: #AEB3BE;
   justify-content: flex-end;
   align-items: flex-end;
