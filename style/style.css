@@ -16,7 +16,7 @@ body {
 
 .textarea {
   display: block;
-  width: 700px;
+  width: 900px;
   height: 200px;
   margin: 10px auto 10px;
   padding: 10px;
@@ -120,31 +120,51 @@ body {
 }
 .key__up {
   width: 100px;
-  background: #AEB3BE;
+  background: #98a6c7;
   font-weight: 700;
   padding-top: 8px;
   font-size: 24px;
 }
 .key__ctrl {
   width: 100px;
+  background: #AEB3BE;
+  font-weight: 700;
 }
 .key__win {
   width: 100px;
+  background: #AEB3BE;
+  font-weight: 700;
 }
 .key__alt {
   width: 100px;
+  background: #AEB3BE;
+  font-weight: 700;
 }
 .key__space {
-  width: 640px;
+  width: 650px;
 }
 .key__left {
   width: 100px;
+  background: #98a6c7;
+  font-weight: 700;
+  padding-top: 4px;
+  padding-right: 4px;
+  font-size: 24px;
 }
 .key__down {
   width: 100px;
+  background: #98a6c7;
+  font-weight: 700;
+  padding-top: 4px;
+  font-size: 24px;
 }
 .key__right {
   width: 100px;
+  background: #98a6c7;
+  font-weight: 700;
+  padding-top: 4px;
+  padding-left: 4px;
+  font-size: 24px;
 }
 
 .slash_key {
@@ -159,4 +179,25 @@ body {
 .space_key {
   max-width: 600px;
   width: 100%;
+}
+
+.description {
+  position: fixed;
+  bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 24px;
+  background-color: rgba(206, 210, 217, 0.8);
+  border-radius: 8px;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+.description__title {
+  font-weight: 600;
+  font-size: 25px;
+  margin: 8px 0;
+}
+.description__subtitle {
+  font-size: 20px;
+  margin: 8px 0;
 }/*# sourceMappingURL=style.css.map */

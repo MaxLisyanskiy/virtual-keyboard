@@ -287,7 +287,7 @@ export const fourthRow = [
 
 export const fifthRow = [
   {
-    class: 'key key__сtrl',
+    class: 'key key__ctrl',
     rus: ['Ctrl', 'Ctrl', 'Ctrl', 'Ctrl'],
     eng: ['Ctrl', 'Ctrl', 'Ctrl', 'Ctrl'],
   },
@@ -307,7 +307,7 @@ export const fifthRow = [
     eng: ['', '', '', ''],
   },
   {
-    class: 'key',
+    class: 'key key__alt key__alt_right',
     rus: ['Alt', 'Alt', 'Alt', 'Alt'],
     eng: ['Alt', 'Alt', 'Alt', 'Alt'],
   },
@@ -327,7 +327,7 @@ export const fifthRow = [
     eng: ['►', '►', '►', '►'],
   },
   {
-    class: 'key',
+    class: 'key key__ctrl key__ctrl_right',
     rus: ['Ctrl', 'Ctrl', 'Ctrl', 'Ctrl'],
     eng: ['Ctrl', 'Ctrl', 'Ctrl', 'Ctrl'],
   },

@@ -76,7 +76,7 @@
 
     &__up {
         width: 100px;
-        background: #AEB3BE;
+        background: #98a6c7;
         font-weight: 700;
         padding-top: 8px;
         font-size: 24px;
@@ -84,30 +84,50 @@
 
     &__ctrl {
         width: 100px;
+        background: #AEB3BE;
+        font-weight: 700;
     }
 
     &__win {
         width: 100px;
+        background: #AEB3BE;
+        font-weight: 700;
     }
 
     &__alt {
         width: 100px;
+        background: #AEB3BE;
+        font-weight: 700;
     }
 
     &__space {
-        width: 640px;
+        width: 650px;
     }
 
     &__left {
         width: 100px;
+        background: #98a6c7;
+        font-weight: 700;
+        padding-top: 4px;
+        padding-right: 4px;
+        font-size: 24px;
     }
 
     &__down {
         width: 100px;
+        background: #98a6c7;
+        font-weight: 700;
+        padding-top: 4px;
+        font-size: 24px;
     }
 
     &__right {
         width: 100px;
+        background: #98a6c7;
+        font-weight: 700;
+        padding-top: 4px;
+        padding-left: 4px;
+        font-size: 24px;
     }
 }
 
