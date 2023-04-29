@@ -67,6 +67,11 @@ body {
   background-color: #0F77F0;
   color: #fff;
 }
+.key.active {
+  background-color: #115eb9;
+  color: #fff;
+  scale: 0.9;
+}
 .key__backspace {
   width: 200px;
   background: #AEB3BE;

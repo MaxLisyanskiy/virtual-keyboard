@@ -16,6 +16,12 @@
         color: #fff
     }
 
+    &.active {
+        background-color: #115eb9;
+        color: #fff;
+        scale: 0.9;
+    }
+
     &__backspace {
         width: 200px;
         background: #AEB3BE;
