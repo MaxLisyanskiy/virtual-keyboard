@@ -1,6 +1,6 @@
 import { createKeyboard } from './create-keyboard.js';
 
-export function init(language, shift, caps) {
+export function init(language) {
     const container = document.createElement('div');
     container.classList = 'container';
     container.innerHTML = `
@@ -21,13 +21,13 @@ export function init(language, shift, caps) {
 
     document.body.prepend(container);
 
-    createKeyboard(language, shift, caps);
+    createKeyboard(language);
 
     const description = document.createElement('div');
     description.classList = 'description';
     description.innerHTML = `
         <h3 class="description__title">Клавиатура создана в операционной системе Windows</h3>
-        <p class="description__subtitle">Для переключения языка комбинация: левыe <strong>ctrl + alt</strong></p>
+        <p class="description__subtitle">Для переключения языка комбинация: левыe <strong>Shift + Alt</strong></p>
     `;
     container.append(description);
 }
