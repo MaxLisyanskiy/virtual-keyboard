@@ -26,5 +26,9 @@ export function onMouseUp(e) {
         }
     } else if (code === 'CapsLock') {
         return false;
+    } else {
+        $item.classList.remove('active');
     }
+
+    return false;
 }

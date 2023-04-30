@@ -1,5 +1,5 @@
-import { onMouseDown } from './mousedown.js';
 import { init } from './init.js';
+import { onMouseDown } from './mousedown.js';
 import { onMouseUp } from './mouseup.js';
 
 const language = JSON.parse(localStorage.getItem('language')) ?? 'rus';
@@ -8,8 +8,6 @@ const language = JSON.parse(localStorage.getItem('language')) ?? 'rus';
 init(language);
 
 // const textarea = document.querySelector('textarea');
-
-// const keys = document.querySelectorAll('.key');
 
 const $keyboard = document.querySelector('.keyboard');
 
