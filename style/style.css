@@ -176,20 +176,6 @@ body {
   font-size: 24px;
 }
 
-.slash_key {
-  width: 90px;
-  background: #AEB3BE;
-  justify-content: flex-end;
-  align-items: flex-end;
-  padding: 12px;
-  font-weight: 700;
-}
-
-.space_key {
-  max-width: 600px;
-  width: 100%;
-}
-
 .description {
   position: fixed;
   bottom: 30px;

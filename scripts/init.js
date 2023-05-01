@@ -8,17 +8,6 @@ export function init(language) {
         <textarea class="textarea" id="textarea" rows="5" cols="50"></textarea>
     `;
 
-    // const keyboard = document.createElement('div');
-    // keyboard.classList = 'keyboard';
-
-    // keyboard.append(createKeyRow(firstRow, language, shift, caps));
-    // keyboard.append(createKeyRow(secondRow, language, shift, caps));
-    // keyboard.append(createKeyRow(thirdRow, language, shift, caps));
-    // keyboard.append(createKeyRow(fourthRow, language, shift, caps));
-    // keyboard.append(createKeyRow(fifthRow, language, shift, caps));
-
-    // container.append(keyboard);
-
     document.body.prepend(container);
 
     createKeyboard(language);

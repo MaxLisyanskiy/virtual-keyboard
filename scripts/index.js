@@ -7,10 +7,7 @@ import { createKeyboard } from './create-keyboard.js';
 
 let language = localStorage.getItem('language') ?? 'rus';
 
-// Первичный рендер клавиатуры
 init(language);
-
-// const textarea = document.querySelector('textarea');
 
 const $keyboard = document.querySelector('.keyboard');
 
@@ -42,7 +39,6 @@ function handleKeyUp(event) {
     onKeyUp(event);
 }
 
-// добавляем слушатель события
 $keyboard.addEventListener('mousedown', (event) => handleMouseDown(event));
 $keyboard.addEventListener('mouseup', (event) => handleMouseUp(event));
 document.addEventListener('keydown', (event) => handleKeyDown(event));

@@ -4,9 +4,6 @@ import {
 } from './keys.js';
 
 export function createKeyboard(language) {
-    // const keyboard = document.createElement('div');
-    // keyboard.classList = 'keyboard';
-
     let keyboard = document.querySelector('.keyboard');
     let lang = document.querySelector('.keyboard__language');
 
