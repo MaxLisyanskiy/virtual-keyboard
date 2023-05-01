@@ -8,6 +8,7 @@ export function createKeyboard(language) {
     // keyboard.classList = 'keyboard';
 
     let keyboard = document.querySelector('.keyboard');
+    let lang = document.querySelector('.keyboard__language');
 
     if (keyboard) {
         keyboard.innerHTML = '';
@@ -22,6 +23,15 @@ export function createKeyboard(language) {
     keyboard.append(createKeyRow(fourthRow, language));
     keyboard.append(createKeyRow(fifthRow, language));
 
+    if (lang) {
+        lang.innerHTML = `Keyboard language: <strong>${language.toUpperCase()}</strong>`;
+    } else {
+        lang = document.createElement('p');
+        lang.classList = 'keyboard__language';
+        lang.innerHTML = `Keyboard language: <strong>${language.toUpperCase()}</strong>`;
+    }
+
     const container = document.querySelector('.container');
     container.append(keyboard);
+    container.append(lang);
 }

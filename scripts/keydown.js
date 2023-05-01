@@ -27,7 +27,7 @@ export function onKeyDown(e) {
           shiftCaps.forEach((item) => item.classList.add('hidden'));
         } else {
           $item.classList.add('active');
-  
+
           caseDown.forEach((item) => item.classList.add('hidden'));
           caseUp.forEach((item) => item.classList.add('hidden'));
           caps.forEach((item) => item.classList.add('hidden'));
@@ -131,6 +131,6 @@ export function onKeyDown(e) {
         textarea.value += $item.childNodes[7].innerText;
       }
     }
-  
+
     return { changeLanguage };
   }

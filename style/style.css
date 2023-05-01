@@ -49,6 +49,10 @@ body {
 .keyboard__row {
   display: flex;
 }
+.keyboard__language {
+  margin-top: 15px;
+  font-size: 18px;
+}
 
 .key {
   width: 85px;

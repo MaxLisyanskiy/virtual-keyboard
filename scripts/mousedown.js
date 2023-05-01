@@ -1,4 +1,6 @@
 export function onMouseDown(e) {
+  let changeLanguage = false;
+
   const textarea = document.querySelector('#textarea');
   setTimeout(() => textarea.focus(), 0);
 
@@ -100,6 +102,13 @@ export function onMouseDown(e) {
   } else if (code === 'Space') {
     $item.classList.add('active');
     textarea.value += ' ';
+  } else if (code === 'AltLeft') {
+    $item.classList.add('active');
+    const shift = document.querySelector('[data-keycode="ShiftLeft"]');
+
+    if (shift.classList.contains('active')) {
+      changeLanguage = true;
+    }
   } else if (code === 'ArrowUp' || code === 'ArrowDown' || code === 'ArrowLeft' || code === 'ArrowRight') {
     $item.classList.add('active');
     textarea.value += $item.childNodes[1].innerText;
@@ -121,5 +130,5 @@ export function onMouseDown(e) {
     }
   }
 
-  return false;
+  return { changeLanguage };
 }

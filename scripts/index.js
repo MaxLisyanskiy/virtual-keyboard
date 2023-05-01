@@ -15,11 +15,17 @@ init(language);
 const $keyboard = document.querySelector('.keyboard');
 
 function handleMouseDown(event) {
-    onMouseDown(event, language);
+    const { changeLanguage } = onMouseDown(event);
+
+    if (changeLanguage) {
+        language = language === 'rus' ? 'en' : 'rus';
+        localStorage.setItem('language', language);
+        setTimeout(() => createKeyboard(language), 300);
+    }
 }
 
 function handleMouseUp(event) {
-    onMouseUp(event, language);
+    onMouseUp(event);
 }
 
 function handleKeyDown(event) {
