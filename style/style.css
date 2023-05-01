@@ -1,0 +1,198 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+.textarea {
+  display: block;
+  width: 900px;
+  height: 200px;
+  margin: 10px auto 10px;
+  padding: 10px;
+  font-size: 18px;
+  color: #444444;
+  border: 1px solid grey;
+  border-radius: 8px;
+}
+
+.title {
+  position: absolute;
+  top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.hidden {
+  display: none;
+}
+
+.keyboard {
+  width: 900px;
+  background-color: rgba(206, 210, 217, 0.8);
+  -webkit-backdrop-filter: blur(35px);
+          backdrop-filter: blur(35px);
+  padding: 6px;
+  border-radius: 8px;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+.keyboard__row {
+  display: flex;
+}
+.keyboard__language {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.key {
+  width: 85px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px;
+  background-color: #fff;
+  border-radius: 9px;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.key:hover {
+  background-color: #0F77F0;
+  color: #fff;
+}
+.key.active {
+  background-color: #115eb9;
+  color: #fff;
+  scale: 0.9;
+}
+.key__backspace {
+  width: 200px;
+  background: #AEB3BE;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 8px;
+  font-weight: 700;
+}
+.key__tab {
+  width: 106px;
+  background: #AEB3BE;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 8px;
+  font-weight: 700;
+}
+.key__del {
+  width: 100px;
+  background: #AEB3BE;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 8px;
+  font-weight: 700;
+}
+.key__caps-lock {
+  width: 200px;
+  background: #AEB3BE;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 8px;
+  font-weight: 700;
+}
+.key__enter {
+  width: 160px;
+  background: #AEB3BE;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 8px;
+  font-weight: 700;
+}
+.key__shift {
+  width: 200px;
+  background: #AEB3BE;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 8px;
+  font-weight: 700;
+}
+.key__shift_right {
+  justify-content: flex-end;
+}
+.key__up {
+  width: 100px;
+  background: #98a6c7;
+  font-weight: 700;
+  padding-top: 8px;
+  font-size: 24px;
+}
+.key__ctrl {
+  width: 100px;
+  background: #AEB3BE;
+  font-weight: 700;
+}
+.key__win {
+  width: 100px;
+  background: #AEB3BE;
+  font-weight: 700;
+}
+.key__alt {
+  width: 100px;
+  background: #AEB3BE;
+  font-weight: 700;
+}
+.key__space {
+  width: 650px;
+}
+.key__left {
+  width: 100px;
+  background: #98a6c7;
+  font-weight: 700;
+  padding-top: 4px;
+  padding-right: 4px;
+  font-size: 24px;
+}
+.key__down {
+  width: 100px;
+  background: #98a6c7;
+  font-weight: 700;
+  padding-top: 4px;
+  font-size: 24px;
+}
+.key__right {
+  width: 100px;
+  background: #98a6c7;
+  font-weight: 700;
+  padding-top: 4px;
+  padding-left: 4px;
+  font-size: 24px;
+}
+
+.description {
+  position: fixed;
+  bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 24px;
+  background-color: rgba(206, 210, 217, 0.8);
+  border-radius: 8px;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+.description__title {
+  font-weight: 600;
+  font-size: 25px;
+  margin: 8px 0;
+}
+.description__subtitle {
+  font-size: 20px;
+  margin: 8px 0;
+}/*# sourceMappingURL=style.css.map */
