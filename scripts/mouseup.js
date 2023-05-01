@@ -2,6 +2,8 @@ export function onMouseUp(e) {
     const $item = e.target.closest('.key');
     const code = $item ? $item.getAttribute('data-keycode') : '';
 
+    if (!$item) return false;
+
     if (code === 'ShiftLeft' || code === 'ShiftRight') {
         const caseDown = document.querySelectorAll('.caseDown');
         const caseUp = document.querySelectorAll('.caseUp');

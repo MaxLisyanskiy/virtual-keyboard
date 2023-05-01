@@ -6,8 +6,20 @@ export function onKeyDown(e) {
     const textarea = document.querySelector('#textarea');
     setTimeout(() => textarea.focus(), 0);
 
-    const $item = document.querySelector(`[data-keycode=${e.code}]`);
+    let $item;
     const { code } = e;
+
+    if (!code) {
+      if (e.key === 'Shift') {
+        $item = document.querySelector('[data-keycode="ShiftRight"]');
+      } else {
+        return false;
+      }
+    } else if (document.querySelector(`[data-keycode=${e.code}]`)) {
+      $item = document.querySelector(`[data-keycode=${e.code}]`);
+    } else {
+      return false;
+    }
 
     if (!$item) return false;
 
